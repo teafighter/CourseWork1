@@ -1,7 +1,7 @@
 public class EmployeeBook {
 
-    public EmployeeBook(int i) {
-        this.employeeBook = new Employee[i];
+    public EmployeeBook(int employeesNumber) {
+        this.employeeBook = new Employee[employeesNumber];
     }
 
     public EmployeeBook(Employee[] employeeBook) { // вариант конструктора при наличии готового массива
